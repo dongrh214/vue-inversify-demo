@@ -1,4 +1,4 @@
-# vue-inversify-demo2
+# vue-inversify-demo
 
 ## Project setup
 ```
