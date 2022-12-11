@@ -4728,6 +4728,11 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
+http-status-codes@^2.1.4:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-2.2.0.tgz#bb2efe63d941dfc2be18e15f703da525169622be"
+  integrity sha512-feERVo9iWxvnejp3SEfm/+oNG517npqL2/PIA8ORjyOZjGC7TwCRQsZylciLS64i6pJ0wRYz3rkXLRwbtFa8Ng==
+
 https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
@@ -4901,6 +4906,35 @@ invariant@^2.2.2, invariant@^2.2.4:
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   dependencies:
     loose-envify "^1.0.0"
+
+inversify-binding-decorators@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/inversify-binding-decorators/-/inversify-binding-decorators-4.0.0.tgz#c4d1ac50d7d6531f465ee7894e92031f7471c865"
+  integrity sha512-r8au/oH3vS7ttHj0RivAznwElySeRohLfg8lvOSzbrX6abf/8ik8ptk49XbzdShgrnalvl7CM6MjcskfM7MMqQ==
+
+inversify-express-utils@^6.4.3:
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/inversify-express-utils/-/inversify-express-utils-6.4.3.tgz#3b46ec617e4608c5d8e0c7ef19c93b29f1b5e47b"
+  integrity sha512-7YvEXeZ912N9hAQ9x0+q9zGV670I1imaIQJzzaBXdPQQiodPEGCO6sq53ODczgyP6M6x4kkQNsu9MlzQbVCtAQ==
+  dependencies:
+    express "^4.17.1"
+    http-status-codes "^2.1.4"
+    inversify "^6.0.1"
+
+inversify-inject-decorators@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/inversify-inject-decorators/-/inversify-inject-decorators-3.1.0.tgz#d9941080bad77cec8a65ee29d905e4d5d73e1e95"
+  integrity sha512-/seBlVp5bXrLQS3DpKEmlgeZL6C7Tf/QITd+IMQrbBBGuCbxb7k3hRAWu9XSreNpFzLgSboz3sClLSEmGwHphw==
+
+inversify@^5.0.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/inversify/-/inversify-5.1.1.tgz#6fbd668c591337404e005a1946bfe0d802c08730"
+  integrity sha512-j8grHGDzv1v+8T1sAQ+3boTCntFPfvxLCkNcxB1J8qA0lUN+fAlSyYd+RXKvaPRL4AGyPxViutBEJHNXOyUdFQ==
+
+inversify@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/inversify/-/inversify-6.0.1.tgz#b20d35425d5d8c5cd156120237aad0008d969f02"
+  integrity sha512-B3ex30927698TJENHR++8FfEaJGqoWOgI6ZY5Ht/nLUsFCwHn6akbwtnUAPCgUepAnTpe2qHxhDNjoKLyz6rgQ==
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -7359,6 +7393,11 @@ readdirp@~3.4.0:
   integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
   dependencies:
     picomatch "^2.2.1"
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
